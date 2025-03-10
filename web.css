@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(229, 222, 211);
+}
+div.container{
+    margin: 0 auto;
+    width: 90%
+}
+header{
+    width:100%;
+    padding:10px 16px;
+    background-color: rgb(154, 213, 213);
+}
+nav{
+    width: 20%;
+    height: 800px;
+    background-color: rgb(223, 97, 110);
+    float: left;
+}
+div.content{
+     width: 80%;
+     height: 800px;
+     background-color: rgb(183, 164, 200);
+     float: right;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(158, 14, 98);
+    float: left;
+}
+
+.maroon{color: maroon;}
+.navy{color: navy;}
+.palevioletred{color: palevioletred;}
+.spacing{letter-spacing:2px; word-spacing:5px; line-height:20px;}
+
+.uppercase{text-transform: uppercase;}
+.lowercase{text-transform: lowercase;}
+.capitalize{text-transform: capitalize;}
+.paragraf{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: 20px;
+}
+ul{
+    list-style: circle;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.btn-red{padding:10px; background:rgb(243, 7, 7); color: rgb(15, 1, 1);}
+.btn-blue{padding:10px; background: blue; color:rgb(0, 0, 10);}
+.btn-green{padding:10px; background: green; color:rgb(9, 11, 9)}
+.solid{
+    border-style: dotted; border-width: 4px; border-color: cadetblue;
+}
+.dotted{
+    border-style: double; border-width: 4px; border-color: cornflowerblue;
+}
+.ridge{
+    border-style: double; border-width: 4px; border-color: darkslateblue;
+}
+.inset{
+    border-style: inset; border-width: 4px; border-color: indianred;
+}
+.outset{
+    border-style: outset; border-width: 4px;
+}
+.round{
+    border-radius: 20px
+}
+.container{
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    margin-left: 0 auto;
+}
+.static{
+    position: static; border: 2px solid rgb(119, 196, 119);
+}
+.relative{
+    position: relative;
+    border: 2px solid rgb(234, 103, 103);
+    left: 20px;
+    bottom: 0;
+}
+.absolute{
+    position: absolute; border:2px solid blue; left: 20px; bottom: 40px;
+}
+.fixed{
+    position: fixed; border: 2px solid black; bottom: 0; right:0;
+}
+.sticky{
+    position: sticky;
+    border: 2px solid yellow;
+    top: 0;
+    left: 20px;
+    background: darkblue;
+    color: white;
+}
+.menu{
+    margin: 0; width: 100%; position: sticky;
+}
+nav{
+    width: 20%; height: 400px; background: rgb(6, 178, 235);
+}
+ul.horizontal{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+ul.horizontal li{
+    float: left;
+}
+ul.horizontal li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ul.horizontal li a{
+    background-color: blanchedalmond;
+}
+ul.vertical{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    background-color: aqua;
+}
+ul.horizontal li{
+    float: left;
+}
+ul.horizontal li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ul.horizontal li a :hover{
+     background-color:blueviolet
+}
+ul.vertical{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(137, 86, 184);
+}ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+ul.vertical li a :hover{
+    background-color: rgb(44, 1, 1);
+    color: white;
+}
